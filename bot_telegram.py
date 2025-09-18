@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Thay bằng token của bạn
-TOKEN = "8386151833:AAFhNuILsltkD8nk64tMWcD2pKQrwHRSsEE"
+TOKEN = ""
 
 # Lệnh /start để test bot
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
